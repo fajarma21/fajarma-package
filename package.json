@@ -1,12 +1,12 @@
 {
   "name": "fajarma-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Personal package for fajarma",
-  "main": "build/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "type": "module",
-  "types": "build/index.d.ts",
   "files": [
-    "build",
+    "dist",
     "README.md"
   ],
   "devDependencies": {
@@ -14,8 +14,7 @@
   },
   "scripts": {
     "build": "npx tsc",
-    "prepublishOnly": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublishOnly": "npm run build"
   },
   "author": "Fajar Maulana",
   "license": "ISC"
