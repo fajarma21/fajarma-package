@@ -61,5 +61,5 @@ import setLS from "fajarma-package/build/storage/setLS";
 const data = {
   counter: "12345",
 };
-setLS<Data>("setLS", data);
+setLS("setLS", data);
 ```
