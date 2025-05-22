@@ -1,6 +1,6 @@
 {
   "name": "fajarma-package",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Personal package for fajarma",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
