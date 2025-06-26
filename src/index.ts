@@ -1,5 +1,6 @@
 // DOM
 import canUseDOM from './dom/canUseDOM';
+import checkIsMobile from './dom/checkIsMobile';
 
 // JSON
 import jsonParse from './json/jsonParse';
@@ -11,4 +12,4 @@ import roundNumber from './number/roundNumber';
 import getLS from './storage/getLS';
 import setLS from './storage/setLS';
 
-export { canUseDOM, jsonParse, roundNumber, getLS, setLS };
+export { canUseDOM, checkIsMobile, getLS, jsonParse, roundNumber, setLS };
