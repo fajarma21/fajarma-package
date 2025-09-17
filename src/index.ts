@@ -1,15 +1,14 @@
 // DOM
-import canUseDOM from './dom/canUseDOM';
-import checkIsMobile from './dom/checkIsMobile';
+export { default as canUseDOM } from './dom/canUseDOM';
+export { default as checkIsMobile } from './dom/checkIsMobile';
+export { default as checkTouchScreen } from './dom/checkTouchScreen';
 
 // JSON
-import jsonParse from './json/jsonParse';
+export { default as jsonParse } from './json/jsonParse';
 
 // number
-import roundNumber from './number/roundNumber';
+export { default as roundNumber } from './number/roundNumber';
 
 // storage
-import getLS from './storage/getLS';
-import setLS from './storage/setLS';
-
-export { canUseDOM, checkIsMobile, getLS, jsonParse, roundNumber, setLS };
+export { default as getLS } from './storage/getLS';
+export { default as setLS } from './storage/setLS';
