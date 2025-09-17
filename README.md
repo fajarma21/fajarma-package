@@ -18,6 +18,22 @@ import canUseDOM from "fajarma-package/build/dom/canUseDOM";
 canUseDOM && window.scroll(0, 100);
 ```
 
+- **checkIsMobile**
+
+```typescript
+import checkIsMobile from "fajarma-package/build/dom/checkIsMobile";
+...
+const isMobile = checkIsMobile;
+```
+
+- **checkTouchScreen**
+
+```typescript
+import checkTouchScreen from "fajarma-package/build/dom/checkTouchScreen";
+...
+const isTouchScreen = checkTouchScreen;
+```
+
 ### JSON
 
 - **jsonParse**
